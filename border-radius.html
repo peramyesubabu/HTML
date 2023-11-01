@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Border-Radius</title>
+    <style>
+        *{background-color: cornsilk}
+        h3{font-family: cursive;
+        color:red;background-color: aqua}
+        
+#one{border: 2px solid red;height: 200px; width:200px;border-radius: 100px; background-color: greenyellow}
+        
+#two{border: 2px solid red;height: 200px; width:200px;border-radius: 100px 50px; background-color: greenyellow}
+        
+#three{border: 2px solid red;height: 200px;width:200px;border-radius: 0px 100px 50px; background-color: greenyellow}
+        
+#four{border: 2px solid red;height: 200px;width:200px;border-radius: 0px 100px 50px 30px; background-color: greenyellow}
+    </style>
+    </head>
+    <body>
+    <h3>Border-Radius property can have 1-4 values:</h3>
+        
+<h3>1.Border-radius with one value (100px):This Value will get applies for all the four corners</h3>
+        <p id="one"></p>
+        <hr>
+        
+<h3>2.Border-radius with two values:(100px 50px): First value(100px) applies at top-left and bottom-right corner.second value(50px) will applies at top-right corner and bottom-left corner.</h3> 
+        <p id="two"></p>
+        <hr>
+        
+<h3>3.Border-radius with three values:(0px 100px 50px): First value(0px) applies at top-left corner.second value(100px) applies at top-right corner and bottom-left corner.Third value(50px) applies at bottom-right corner.</h3>
+        <p id="three"></p>
+        <hr>
+<h3>4.Border-radius with four values:(0px 100px 50px 30px): First value(0px) applies at top-left corner.second value(100px) applies at top-right corner third value applies at bottom-right corner and fourth value(30px) applies at bottom-left corner.</h3>
+        <p id="four"></p>
+    </body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hyper text markup language</title>
+<style>
+    p,pre,h4{color: rgb(55, 50, 205); text-align: left;font-size: medium;font-family: cursive;}
+</style>
+</head>
+<body>
+    <h1>heading tags:</h1>
+    <hr>
+    <pre>there 
+        are 
+        six 
+        heading 
+        tags 
+        in 
+        html those are shown below            .</pre>
+    <h1>h1:-</h1>
+    <h2>h2:-</h2>
+    <h3>h3:-</h3>
+    <h4>h4:-</h4>
+    <h5>h5:-</h5>
+    <h6>h6:-</h6>
+    <p>each 
+        heading 
+        tag 
+        has 
+        different 
+        font 
+        size 
+        and 
+        font 
+        style
+                  .
+        font 
+        font heading 
+        tag 
+        has 
+        different 
+        font 
+        size 
+        and 
+        font 
+        style
+                  .
+        font 
+        font 
+    </p>
+    <h4>paired tags:</h4>
+    <hr>
+    <p>paired tags are such a tags which have opening and closing tag separatelly </p>
+    <h4>unpaired tags:</h4>
+    <hr>
+    <p>unpaired tags are such a tags which have opening and closing tag togeter </p>
+    <h4>inline tags:</h4>
+    <hr>
+    <ol>
+        <li>Inline tags are such atags which wille displayed the content in the same line only.
+            </li>
+            <li>Inline tags does not give any internal line breaks</li>
+            <li>example to the inline lags:-anchor tag</li>
+    </ol>
+    <h4> Block level tags:</h4>
+    <hr>
+    <p>Block level tags are such tags which display the content in new line bye giving internal line breaks automatically example p-tag nd pre-tag.</p>
+
+    
+
+    
+    <h4>anchor tag:-</h4>
+    <hr>
+    <ol>
+        <li>anchor tag is used to create hyper text or clickabl text on the webpage.</li>
+        <li>anchor tag contains herf attribute,which is used to link the webpage to the given hyper text. </li>
+        <li>three types of links are there in html those are:-</li>
+    </ol>
+    <ul>
+        <li>unvisited links</li>
+        <li>visited links</li>
+        <li>active links</li>
+    </ul>
+    
+    </pre>
+    <a href="https://www.youtube.com/"
+    target="_blank"> clike-here</a>
+    <h4>Multimedia tags:</h4>
+    <hr>
+    <ol>
+        <li> Multimedia tags are such tags which will display the multimedia contents on the web page.</li>
+        <li>there is three multimedia contents in html those are:-</li>
+    </ol>
+        <ul>
+            <li>images</li>
+            <li>videos</li>
+            <li>audio</li>
+        </ul>
+        <h4>image tag:-</h4>
+        <dl>
+            <dt>img-tag</dt>
+            <dd>image tag is used to display the images on yhe webpage by using "src" attribute.src attribute has the path of the image in the image tag</dd>
+            <br>
+            <img src="image.jpg" height="300px"width="200px">
+            <br>
+            <dl>
+                <dt>vidio-tag:-</dt>
+                <dd>video tag is used to display the video contents on the wed page by using "src"attribute src attribute conatains path of the video in the video tag.</dd>
+                <video src="sample_video.mp4 (240p).mp4 " controls height="300px"width="300px"></video>
+            </dl>
+            
+            <dl>
+                <dt>audio-tag:_</dt>
+                <dd>audio tag is a type of multimedia tag which is used to diplay audio contents on the web page by using 'src'attribute ,which contains path of the audio in the audio tag.</dd>
+                <audio src="kgf_theme_official-1.mp3"  controls></audio>
+            </dl>
+            
+
+       
+        <hr>
+        <h4>Table-tag</h4>
+        <pre>Table tag is used to create tables in web page</pre>
+        <table border="">
+            <tr>
+                <th>Student-name</th>
+                <th>Student-id</th>
+                <th>email</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>Durga prasad</td>
+                <td>1232</td>
+                <td>durga@gmail.com</td>
+                <td>uyyuru</td>
+            </tr>
+            <tr>
+                <td>Durga prasad</td>
+                <td>1232</td>
+                <td>durga@gmail.com</td>
+                <td>uyyuru</td>
+            </tr>
+            <tr>
+                <td>Durga prasad</td>
+                <td>1232</td>
+                <td>durga@gmail.com</td>
+                <td>uyyuru</td>
+            </tr>
+            <tr>
+                <td>Durga prasad</td>
+                <td>1232</td>
+                <td>durga@gmail.com</td>
+                <td>uyyuru</td>
+            </tr>
+        </table>
+        <h4>table-2</h4>
+        <table border="">
+            <tr>
+                <th rowspan="3"> arithmetic-oparation</th>
+                <th colspan="2">Addition</th>
+                <th colspan="2">Subtraction</th>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>20</td>
+                <td>30</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td colspan="2">30</td>
+                <td colspan="2">-10</td>
+            </tr>
+        </table>
+        <h4>Form-tags:</h4>
+        <hr>
+        <p style="color: blue;text-align: left;">Form tag is used to create form in webpage </p>
+        <fieldset>
+        <form>
+            <label>Name:</label>
+            <input type="text" required
+            placeholder="Enter your name"
+            pattern="[a-zA-Z]{3,15}"
+            title="please check your name again" font size="20px">
+            <br><br>
+            <label>email:</label>
+            <input type="text" 
+            required
+            placeholder="Enter your email here..."
+            pattern="[a-zA-Z0-9%]+@[a-zA-Z].[a-Z]{2,3}"
+            title="invalid email id...please check once">
+            
+
+            <br><br>
+            <label>Phone_number:</label>
+            <input type="text" required
+            placeholder="Enter your mobile number"
+            pattern="^[6-9]{1}[0-9]{9}$"
+            title="Invalid Phone_number">
+
+            <br><br>
+            <label>Age:</label>
+            <input type="number"min="18"max=25>
+            <br><br>
+            <label>date of birth:</label>
+            <input type="date"min="2021-03-26" max="2023-12-31">
+            <br><br>
+            <label>address:</label>
+            <input type="text"
+            required
+            placeholder="Enter your permenant address">
+            
+            
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio"name="Gender">Male
+            <input type="radio"name="Gender">FeMale
+            <input type="radio"name="Gender">Other
+            <br><br>
+            <label>Technical_skills:</label>
+            <input type="checkbox">Java
+            <input type="checkbox">Phythone
+            <input type="checkbox">C++
+            <input type="checkbox">C
+            <input type="checkbox">SQL
+             <br><br>
+             <label>select city:</label>
+             <select>
+                <option>select</option>
+                <option>delhi</option>
+                <option>mumbai</option>
+                <option>chochi</option>
+                <option>goa</option>
+             </select>
+             
+             <br><br>
+             <label>Upload-files:</label>
+             <input type="file">
+
+             <br><br>
+             <label>search</label>
+             <input type="search">
+             <br><br>
+             <label>color:</label>
+             <input type="color">
+
+             <br><br>
+             <label>range:</label>
+             <input type="range">
+             <br><br>
+            
+            <input type="submit">
+            <input type="reset">
+        </form>
+        
+    </fieldset>
+
+        
+    
+
+    
+    
+        
+</body>
+</html>

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Reset some default styles for better consistency */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+    color: #333;
+    background-image: url("/images/logo3.png"); /* Replace "your-background-image.jpg" with the correct path to your background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.taskbar {
+    background-color: lightsteelblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskbar a {
+    color: black;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.taskbar a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.taskbar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: darkslateblue;
+}
+
+.taskbar .btn1,
+.taskbar .btn2 {
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.taskbar .btn1:hover,
+.taskbar .btn2:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles for mobile responsiveness */
+@media screen and (max-width: 480px) {
+    .taskbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .taskbar a {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .taskbar h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}

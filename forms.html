@@ -1,0 +1,92 @@
+<!DCTYPE html>
+<html>
+<head>
+<u><title>Forms:</title></u>
+</head>
+<BODY>
+    <fieldset>
+    <form>
+        <h5>welcome user please fill out given form</h5>
+        <label> Name:</label>
+        <input type="text" required  
+        placeholder="Enter your first name"
+        pattern="[a-zA-Z]{3,15}"
+        title="please check you name again...!"
+        >
+        <br>
+        <br>
+       <label>
+            age:
+        </label>
+        
+        <input type="number" min="18" max="29">
+        <i><p>minimum age 18 and maximum 29</p></i>
+       
+        <br>
+        <br>
+        <label>Phone_number:</label>
+        <input type="text" required placeholder="Enter 10 digit phone number"
+        pattern="^[7-9]{1}[0-9]{9}$" title="Please enter the 10 digits of phone number only....!!">
+
+        <p>1.First didgit of phone number can be anything between 7-9</p>
+        <p>2. Rest 9 digits of phonenumber can be anything between 0-9</p>
+<br><br>
+<label>Email:</label>
+        <input type="email" pattern="[a-zA-Z0-9%]+@[a-zA-Z]+.[a-z]{2,3}"
+        required placeholder="Enter your email"
+        >
+        <br>
+        <br>
+        <label>Tech Skills</label>
+        <input type="checkbox">JAVA
+        <input type="checkbox">SQL
+        <input type="checkbox">PHYTHONE
+        <input type="checkbox">HTML
+        <input type="checkbox">CSS3
+        <BR>
+            <br>
+            <label> select city:</label>
+            <select>
+                <option>select</option>
+                <option>benguluru</option>
+                <option>mumbai</option>
+                <option>hydrabad</option>
+                <option>chennai</option>
+            </select>
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="Gender">male
+            <input type="radio" name="Gender">female
+            <input type="radio" name="Gender">other
+            <BR>
+                <BR>
+                    <label>Upload your files here:</label>
+                    <br>
+                    <input type="file">
+                    <br>
+                    <br>
+                    <label>Calender:</label>
+                    <input type="date" min="2012-03-16" max="2023-03-08">
+                    <br>
+                    <br>
+                    <label>Range button:</label>
+                    <input type="range">
+                    <br><br>
+                    <label>Color pallet</label>
+                    <input type="color">
+                    <br><br>
+                    <label>search button:</label>
+                    <input type="search">
+                    <br><br>
+                    <textarea> Write your comments here....!</textarea>
+                    <br><br>
+        <input type="submit">
+        <br>
+        <br>
+        <input type="reset">
+
+    </form>
+</fieldset>
+
+ </BODY>
+ </html>

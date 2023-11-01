@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html><head><title>Form</title></head>
+    <body>
+        <fieldset>
+    <form>
+<h3>Welcome User....!! Please fill out the given form</h3> <hr>
+        
+<h4>Text Box:</h4>
+<label>Name:</label>
+<input type="text" placeholder="Enter the First Name" pattern="[a-zA-Z]{3,15}" title="User Enter your name...!!" required><br><br>
+<p>1.Name should contain only characters.</p>
+<p>2.Name should contain minimum 3 characters and maximum 15 characters.</p>
+  
+<h4>Number box:(spin control)</h4>
+<label>Age:</label>
+<input type="number"  min="18" max="29" required>
+<p>1.minimum age should be 18.</p>
+<p>2.Maximum age should be 29</p>
+<p>3.If we are not using min and max attribute the first default value of up arrow is 1 and the first default value for down arrow is -1. </p>
+        
+<h4>Phone Number box:</h4>
+<label>Phone Number:</label>
+<input type="text" pattern="^[7-9]{1}[0-9]{9}$" required title="Number should  start from 7-9">
+        
+
+<h4>Email Box:</h4>
+<label>Email:</label>
+<input type="email" pattern="[a-zA-Z0-9%$]+@[a-zA-Z]+.[a-z]{2,3}" required title="Invalid Email....!!!">
+        
+        <h4>checkbox:</h4>
+        <label>Technical Skills:</label>
+        <input type="checkbox">Java
+        <input type="checkbox">SQL
+        <input type="checkbox">Python
+        <input type="checkbox">HTML
+        
+    <p>To create checkbox we need to select input type="checkbox".</p>
+    <p>Here, we can select multiple options.</p>
+        
+      <h4>select box/ dropdown menu:</h4> 
+        
+    <label>Select City:</label>
+        <select>
+        <option>Select</option>
+        <option>Mumbai</option>
+        <option>Pune</option>
+        <option>Bangalore</option>
+        <option>Nagpur</option>
+        <option>Jagaon</option>
+        </select>
+        
+    <p>While creating dropdown menu all the options which are given using option tag, should be present in select tag.</p>
+        
+        <h4>Radio Button:</h4>
+        <label>Gender:</label>
+    <input type="radio" name="gender"><label>Male</label>
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Other
+        
+        
+<p>While creating radio buttons to allow user to select only one option, we have to use name attribute with same value for it, otherwise it will allow  user to select multiple options.</p>
+<p>radio buttons with the same name belong to the same group</p> 
+        
+        <h4>Upload Button:</h4>
+        <label>Choose Your File:</label>
+        <input type="file">
+        <p>To create upload button we need to select input type="file".</p>
+        
+        <h4>Textarea</h4>
+        
+    <textarea>
+        Write your comments here....!!!  
+    </textarea>
+        
+        <h4>Calendar:</h4>
+        <label>Select DOB:</label>
+        <input type="date" min="1990-01-09" max="2023-12-31">
+<p>1.In the input tag "type attribute must be specified as "date" to create "calendar Box" in the form</p>
+<p>2.By default calendar box will display the date in dd-mm-yyyy format.</p>
+<p>3.Using "min" and "max" attribute we can set the minimum and maximum dates to be displayed in the calendar.</p>
+<p>4.While specifying the value for min and max attribute "yyyy-mm-dd" format must be used.</p>
+        
+<h4>reset button:</h4>
+<input type="reset">
+        
+<h4>Color:</h4>
+<input type="color">
+        
+<h4>Range Button:</h4>
+<input type="range">
+        
+<h4>Search box:</h4>
+<input type="search">
+        
+ <br><br>  
+<input type="submit">
+        </form>  
+            </fieldset>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><title>Navigationbar</title>
+    <style>
+        ul{list-style-type:none;}
+        
+        a{text-decoration: none;
+        display: block;
+        background-color: black;
+        color: white;
+        width: 150px;
+        padding: 6px;
+        height: 15px;
+        text-align: center;
+        border: 2px solid white;border-radius: 5px;
+        }
+        
+    a:hover{background-color: gainsboro;color:black;border: 2px dotted black;font-family: cursive;}
+        
+    h3{color:dimgrey;font-family: cursive;background-color: bisque;}
+        
+    .flexcontainer{display: flex;
+                /*justify-content: space-around;*/
+                justify-content: space-between;
+                   /*justify-content: center;*/
+                align-items: center;
+                 background-color: aqua;}
+    </style>
+    </head>
+    <body>
+    <nav>
+        
+        <ul class="flexcontainer">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">MUSIC</a></li>
+        <li><a href="#">VIDEO</a></li>
+        <li><a href="#">AUDIO</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">SUPPORT</a></li>
+        </ul>
+    </nav>
+    </body>
+</html>
